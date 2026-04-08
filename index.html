@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📌Khaira's Page.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- AUDIO -->
+  <audio id="bgMusic" src="lover.flac" loop></audio>
+
+  <!-- LOGIN PAGE -->
+  <div class="container" id="loginPage">
+    <div class="card login-card">
+      <h1>Hallo Cintaa 💗</h1>
+      <p class="subtitle">Login duluu yuk</p>
+
+      <form id="loginForm">
+        <div class="input-group">
+          <label>Username</label>
+          <input type="text" id="username" placeholder="Masukkan username" required />
+        </div>
+
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" id="password" placeholder="Masukkan password" required />
+        </div>
+
+        <button type="submit" class="btn">Login 💕</button>
+        <p class="hint">Hint: username <b>Kwords</b> | password <b>Birthday</b></p>
+      </form>
+
+      <p id="errorMsg" class="error-msg"></p>
+    </div>
+  </div>
+
+  <!-- HOME PAGE -->
+  <div class="container hidden" id="homePage">
+    <div class="card home-card">
+      <h1>Hai Cintaaaa 💖</h1>
+      <p class="subtitle">Anyway ini cintaku yang paling cantik!</p>
+
+      <div class="photo-box">
+        <img src="khaira.jpg" alt="Cantikku" />
+      </div>
+
+      <div class="love-text">
+        <p>
+          I just wanna say that you're so picious and i'm really grateful to have you in my life. Meeting you was one of the best things that ever happened to me, and I cherish every moment we spend together.
+        </p>
+        <p>
+            Aku minta maaf kalo kadang masih suka bikin kamu sebel, kesel, sedih, atau bahkan bikin kamu nangis. Aku gapernah bermaksud buat lakuin itu, ya meskipun ledekin kamu tuh seru tapi aku gamau sering sering usilin kamu deh (takut nangis soalnya).
+        </p>
+        <p>
+            Tapi dibalik itu semua, kamu harus tau kalo aku sayang kamu sebanyak banyak banyaknyaa deh.
+        </p>
+        <p>
+            Kalo kata tiktok, "Life is getting better when you're in it" 🌸.
+        </p>
+      </div>
+
+      <div class="button-group">
+        <button class="btn secondary" id="pauseMusic">Pause Lagu 🎵</button>
+        <button class="btn logout-btn" id="logoutBtn">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
